@@ -1,0 +1,25 @@
+.AppShell {
+  min-height: 100vh;
+  background: #f6f7fb;
+  padding: 24px;
+}
+
+input {
+  padding: 10px 12px;
+  border: 1px solid #d7dbe7;
+  border-radius: 8px;
+  outline: none;
+}
+
+button {
+  padding: 10px 12px;
+  border: 1px solid #d7dbe7;
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
