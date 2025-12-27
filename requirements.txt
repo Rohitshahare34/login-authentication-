@@ -1,0 +1,41 @@
+# -------------------------------
+# Core Django
+# -------------------------------
+Django==4.1.6
+
+# -------------------------------
+# Django REST Framework
+# -------------------------------
+djangorestframework==3.14.0
+
+# -------------------------------
+# JWT Authentication
+# -------------------------------
+djangorestframework-simplejwt==5.3.1
+
+# -------------------------------
+# PostgreSQL Database Adapter
+# -------------------------------
+psycopg2-binary==2.9.9
+
+# -------------------------------
+# CORS (React <-> Django)
+# -------------------------------
+django-cors-headers==4.3.1
+
+# -------------------------------
+# Environment Variables (optional but recommended)
+# -------------------------------
+python-dotenv==1.0.1
+
+# -------------------------------
+# Security & Utilities
+# -------------------------------
+pytz==2024.1
+sqlparse==0.5.0
+
+# -------------------------------
+# Production (optional, future use)
+# -------------------------------
+gunicorn==21.2.0
+whitenoise==6.6.0
